@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playwrite+HU&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%); 
+    display:flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Figtree", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+.container{
+        background-color:hsl(0, 0%, 100%);
+        border: 20px;
+        width:384px;
+        height: 522px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 10px 0px rgba(1, 1, 1, 1);
+#content{
+    padding: 7px;
+}
+.abovetitle{
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-flex;
+}
+.title{
+font-weight:800;
+font-size: 24px;
+}
+
+#illustration{
+    width: 100%;
+}
+.author{
+    font-weight:800;
+    float:left;
+    margin-top: 50px;
+}
+.paragraph{
+    font-size: 16px;
+    color:hsl(0, 0%, 42%);
+    font-weight:500;
+}
+.avatar{
+    width:10%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+    align-self:self-end;
+}
