@@ -21,8 +21,10 @@ body{
         width:384px;
         height: 522px;
         padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0px 10px 10px 0px rgba(1, 1, 1, 1);
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px rgba(1, 1, 1, 1);
+        border-style:solid;
+        border-width: 1px;}
 #content{
     padding: 7px;
 }
@@ -30,10 +32,15 @@ body{
     font-weight: 800;
     background-color: hsl(47, 88%, 63%);
     display: inline-flex;
+    margin-left: 6px;
 }
 .title{
 font-weight:800;
 font-size: 24px;
+}
+.title:hover{
+    color:hsl(47, 88%, 63%);
+    cursor:pointer;
 }
 
 #illustration{
@@ -53,8 +60,15 @@ font-size: 24px;
     width:10%;
 }
 
-.attribution { 
-    font-size: 11px; text-align: center; 
-    color: hsl(228, 45%, 44%); 
-    align-self:self-end;
+@media (max-width:375px) {
+    .container{
+        width:327px;
+        height: 501px;
+    }
+    .author{
+        margin-top: 0;
+    }
+    #illustration{
+        width: 100%;
+    }
 }
