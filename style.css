@@ -43,7 +43,7 @@ font-size: 24px;
     cursor:pointer;
 }
 
-#illustration{
+.illustration{
     width: 100%;
 }
 .author{
@@ -65,10 +65,12 @@ font-size: 24px;
         width:327px;
         height: 501px;
     }
+    .illustration{
+        width: 100%;
+        object-fit:scale-down;
+    }
     .author{
         margin-top: 0;
     }
-    #illustration{
-        width: 100%;
-    }
+    
 }
